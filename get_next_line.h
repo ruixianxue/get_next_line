@@ -22,5 +22,9 @@
 # endif
 
 char	*get_next_line(int fd);
+int	found_newline(char *str);
+int	ft_strlen(char *s);
+void	*ft_memcpy(void *dest, const void *src, int n);
+char	*ft_strjoin(char *s1, char *s2);
 
 #endif
