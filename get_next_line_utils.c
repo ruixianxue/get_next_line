@@ -92,5 +92,3 @@ char	*ft_strjoin(char *s1, char *s2)
 	ft_memcpy(dst + s1_len, s2, s2_len + 1);
 	return (dst);
 }
-
-
